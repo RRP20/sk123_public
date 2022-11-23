@@ -2,3 +2,4 @@ FROM node:16-alpine
 
 RUN apk add -U git curl
 CMD yum update -y
+Expose:8000
